@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body id="profileBody">
+    <nav>
+      <ol>
+        <li class="profile"><a href="./home.html">Home</a></li>
+        <li class="profile"><a href="./profile.html">Profile</a></li>
+        <li class="profile"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1 id="heading">!!! Welcome To My Profile !!!</h1>
+
+      <img id="profilePicture" src="./profile_pic.jpg" alt="Profile Picture" />
+
+      <h2 class="section-heading">About Me</h2>
+      <p>
+        Hello! My name is Roshan Neupane. I am originally from Nepal. I moved to
+        Texas in 2014, and since then, I have lived here. I attended the
+        University of Texas at Arlington and earned a Bachelor of Science degree
+        in December 2021. I enjoy building innovative and robust software
+        solutions that cater to clients' needs and exceed their expectations. My
+        dedication to problem-solving and logical thinking drives my pursuit of
+        excellence in the tech industry. Apart from coding, I love spending time
+        with family, playing guitar, engaging in outdoor activities, and
+        continuously expanding my skill set to contribute meaningfully to the
+        world of web development. Thank you!
+      </p>
+
+      <h3 class="section-heading">Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+
+      <h3 class="section-heading">Interests</h3>
+      <ul>
+        <li>Software Development</li>
+        <li>Playing Guitar</li>
+        <li>Ping Pong</li>
+      </ul>
+
+      <h3 class="section-heading">Career Goals</h3>
+      <p>
+        As a full-stack Software Engineer, my career goal is to build innovative
+        software solutions using front-end and back-end technologies such as
+        HTML, CSS, JavaScript, Java, SpringBoot, SQL, Git, and GitHub. I am
+        passionate about finding logic and solving problems to create robust
+        software that not only meets the client's needs but also makes a
+        positive impact on the community. I want to use my skills to develop
+        applications that serve the greater good and address real-world
+        challenges. By contributing to meaningful projects, I aim to leverage
+        technology for the betterment of society and continuously improve my
+        abilities to become a valuable asset in the tech industry.
+      </p>
+
+      <button class="favButtons" id="color">My Favorite Color</button>
+      <button class="favButtons" id="place">My Favorite Place</button>
+      <button class="favButtons" id="ritual">My Favorite Ritual</button>
+
+      <h2 class="section-heading">Contact Me</h2>
+      <form id="contact">
+        <label class="contact-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label class="contact-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <input class="submitButton" type="submit" value="Submit" />
+      </form>
+    </content>
+
+    <script src="./profile.js"></script>
+  </body>
+</html>
+
+<a href="./home.html"><<< Back to Home Page</a>
